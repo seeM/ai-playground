@@ -1,7 +1,9 @@
 .ipynb_checkpoints/
 __pycache__/
 *.swp
+
 data/
+outputs/
 
 object-detection/coco_eval.py
 object-detection/coco_utils.py

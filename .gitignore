@@ -2,3 +2,10 @@
 __pycache__/
 *.swp
 data/
+
+object-detection/coco_eval.py
+object-detection/coco_utils.py
+object-detection/engine.py
+object-detection/transforms.py
+object-detection/utils.py
+object-detection/vision/

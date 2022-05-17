@@ -13,3 +13,5 @@ object-detection/utils.py
 object-detection/vision/
 
 .python-version
+
+mmdetection/

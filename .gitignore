@@ -11,3 +11,5 @@ object-detection/engine.py
 object-detection/transforms.py
 object-detection/utils.py
 object-detection/vision/
+
+.python-version

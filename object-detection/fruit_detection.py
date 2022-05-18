@@ -13,7 +13,7 @@ dataset = dict(
     _delete_=True,
     type="MineAppleDataset",
     classes=classes,
-    data_root="../data/")
+    data_root="data/")
 img_norm_cfg = dict(
     mean=[103.530, 116.280, 123.675], std=[1.0, 1.0, 1.0], to_rgb=False)
 train_pipeline = [

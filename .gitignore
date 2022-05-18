@@ -15,3 +15,4 @@ object-detection/vision/
 .python-version
 
 mmdetection/
+work_dirs/

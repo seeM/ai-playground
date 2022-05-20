@@ -15,11 +15,12 @@ WORKDIR /app
 
 COPY requirements.txt requirements.txt
 RUN --mount=type=cache,target=/root/.cache/pip \
-    pip3 install -r requirements.txt && \
-    pip3 install openmim && \
+    pip3 install torch==1.11.0 torchvision==0.12.0 openmim && \
     mim install mmdet
+RUN --mount=type=cache,target=/root/.cache/pip \
+    pip3 install -r requirements.txt
 
 COPY . .
 
 # Source: https://stackoverflow.com/a/39734201
-CMD [ "jupyter-lab", "--allow-root", "--no-browser", "--ip=0.0.0.0" ]
+CMD [ "jupyter-notebook", "--allow-root", "--no-browser", "--ip=0.0.0.0" ]

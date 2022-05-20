@@ -1,5 +1,4 @@
 fastdownload
 fastprogress
-notebook
 matplotlib
 pycocotools

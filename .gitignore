@@ -16,3 +16,5 @@ object-detection/vision/
 
 mmdetection/
 work_dirs/
+
+**.pth
